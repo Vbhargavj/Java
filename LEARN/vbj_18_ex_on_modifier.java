@@ -1,5 +1,4 @@
-
-
+// package LEARN;
 class surface {
     private int radius, height;
 
@@ -18,7 +17,7 @@ class surface {
     public int getHeight() {
         return height;
     }
-// using constructor 
+    // using constructor 
     public surface(int rad, int heg) {
         this.height = heg;
         this.radius = rad;
@@ -26,7 +25,7 @@ class surface {
     
 }
 
-public class vbj_ex_on_modifier {
+public class vbj_18_ex_on_modifier {
     public static void main(String[] args) {
         // surface s = new surface();
         // s.setHeight(34);

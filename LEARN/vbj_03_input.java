@@ -1,3 +1,4 @@
+// package LEARN;
 import java.util.Scanner;
 
 public class vbj_03_input {

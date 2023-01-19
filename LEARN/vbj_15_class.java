@@ -1,3 +1,4 @@
+// package LEARN;
 class greeting {
     int salary;
     String s;

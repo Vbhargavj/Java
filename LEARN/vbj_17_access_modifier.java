@@ -1,3 +1,4 @@
+// package LEARN;
 class name1 {
     private int rollnum;
     private String name;
@@ -16,7 +17,7 @@ class name1 {
     }
 }
 
-public class vbj_access_modifier {
+public class vbj_17_access_modifier {
 
     public static void main(String[] args) {
         name1 k = new name1();

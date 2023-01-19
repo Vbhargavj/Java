@@ -1,3 +1,4 @@
+// package LEARN;
 public class vbj_14_ex_rec_fns {
 
     static int sum(int n) {
