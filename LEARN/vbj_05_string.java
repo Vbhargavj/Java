@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 public class vbj_05_string {
     public static void main(String[] args) {
 

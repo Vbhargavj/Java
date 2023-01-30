@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 public class vbj_02_veriable {
     public static void main(String [] args) {
         System.out.println("bhargav");

@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 public class vbj_12_ex_pattern1 {
 
     static void PatternRecursion(int n) {

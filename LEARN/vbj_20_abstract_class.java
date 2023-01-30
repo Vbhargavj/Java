@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 abstract class base {
 
     public void name() {

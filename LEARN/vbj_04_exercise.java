@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 import java.util.Scanner;
 
 public class vbj_04_exercise {

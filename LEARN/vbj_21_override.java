@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 class test {
 
     public void name() {

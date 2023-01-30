@@ -1,14 +1,14 @@
-// package LEARN;
+package LEARN;
 
 class computer {
     private String ComName;
 
-    public String getComName() {
-        return ComName;
-    }
-
     public void setComName(String comName) {
         ComName = comName;
+    }
+
+    public String getComName() {
+        return ComName;
     }
 
     public void play() {
@@ -35,5 +35,9 @@ class speaker extends computer {
 }
 
 public class vbj_19_dynamic_memory_dispatch {
-    computer s = new speaker();
+    public static void main(String[] args) {
+
+        computer s = new speaker();
+        System.out.println(s.getComName());
+    }
 }

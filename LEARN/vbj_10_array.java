@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 public class vbj_10_array {
     public static void main(String[] args) {
         int[] array = new int[5];

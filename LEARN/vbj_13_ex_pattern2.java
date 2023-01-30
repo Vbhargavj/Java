@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 public class vbj_13_ex_pattern2 {
 
     static void pattern2(int n) {

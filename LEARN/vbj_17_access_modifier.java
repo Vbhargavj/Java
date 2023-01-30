@@ -1,4 +1,4 @@
-// package LEARN;
+package LEARN;
 class name1 {
     private int rollnum;
     private String name;
