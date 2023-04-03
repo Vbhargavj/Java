@@ -16,9 +16,9 @@ public class vbj_25_thread_priority {
     public static void main(String[] args) {
         thread t1 = new thread("bhargav");
         thread t2 = new thread("jeet");
-        t1.setPriority(2);
-        t1.setPriority(2);
-        t2.start();
+        t1.setPriority(10);
+        t2.setPriority(5);
         t1.start();
+        t2.start();
     }
 }

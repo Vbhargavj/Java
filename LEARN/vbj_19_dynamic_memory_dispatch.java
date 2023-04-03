@@ -38,6 +38,8 @@ public class vbj_19_dynamic_memory_dispatch {
     public static void main(String[] args) {
 
         computer s = new speaker();
+        s.setComName("bhargav");
+        s.play();
         System.out.println(s.getComName());
     }
 }
