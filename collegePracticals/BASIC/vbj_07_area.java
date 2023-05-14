@@ -1,4 +1,4 @@
-package collegePracticals.BASIC;
+// package collegePracticals.BASIC;
 
 import java.util.Scanner;
 
@@ -11,7 +11,6 @@ public class vbj_07_area {
         System.out.println("Enter the feet or meter for the value");
         Scanner c = new Scanner(System.in);
         String s = c.nextLine();
-        System.out.println(s);
         if (s.equals("feet")) {
             System.out.println(n / 3.28 + " meter");
         }

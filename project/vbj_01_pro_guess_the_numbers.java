@@ -1,7 +1,4 @@
-// package project;
-
-import java.util.Random;
-import java.util.Scanner;
+package java;
 
 // import javax.sound.sampled.SourceDataLine;
 
