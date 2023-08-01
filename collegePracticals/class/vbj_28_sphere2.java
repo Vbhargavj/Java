@@ -17,12 +17,19 @@ class sphere {
         this.y = y;
     }
 
-    public void show() {
+    public void display() {
         System.out.println("Radious  of " + r + " Sphere is located at (" + x + "," + y + ") coordinates");
     }
 }
 public class vbj_28_sphere2 {
     public static void main(String[] args) {
-        sphere s = new sphere();
+        sphere s1 = new sphere();
+        sphere s2 = new sphere(6);
+        sphere s3 = new sphere(3, 4, 8);
+        
+        s1.display();
+        s2.display();
+        s3.display();
+
     }
 }

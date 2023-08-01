@@ -1,5 +1,3 @@
-
-
 public class vbj_16_replace {
     public static void main(String[] args) {
         String s = new String("java123is234fun");

@@ -17,7 +17,9 @@ class sphere {
 }
 public class vbj_26_Sphere {
     public static void main(String[] args) {
-        sphere s = new sphere(1, 4, -4);
-        s.show();
+        sphere s1 = new sphere();
+        sphere s2 = new sphere(1, 4, -4);
+        s1.show();
+        s2.show();
     }
 }
