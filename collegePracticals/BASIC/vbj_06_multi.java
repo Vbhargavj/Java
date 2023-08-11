@@ -1,4 +1,4 @@
-// package collegePracticals.BASIC;
+package collegePracticals.BASIC;
 
 public class vbj_06_multi {
     public static void main(String[] args) {

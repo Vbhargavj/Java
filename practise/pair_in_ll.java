@@ -1,5 +1,5 @@
 import java.util.LinkedList;
-import java.util.Random;
+
 
 public class pair_in_ll {
     // static LinkedList<Integer> ll={1,2,1};
@@ -13,7 +13,7 @@ public class pair_in_ll {
         asi.add(2);
         asi.add(1);
 
-        int k = 2, j = 0;
+        int j = 0;
         for (int i = 0; i < ll.length; i++) {
             if (i != j && 1 == ll[i]) {
                 System.out.println(i);

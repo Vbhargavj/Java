@@ -10,18 +10,20 @@ public class vbj_24_except {
 
     public static void main(String[] args) {
         int age;
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            try {
+                System.out.println("Enter you age");
 
-        try {
-            System.out.println("Enter you age");
+                age = sc.nextInt();
 
-            age = sc.nextInt();
-
-            if (age < 0) {
-                throw new invalidException("Invalid age");
-            }
-        } catch (Exception e) {
-            System.out.println("Error: " + e.getMessage());
+                if (age < 0) {
+                    throw new invalidException("Invalid age");
+                }
+            } catch (Exception e) {
+                System.out.println("Error: " + e.getMessage());
             }
         }
+
+    }
+    
 }

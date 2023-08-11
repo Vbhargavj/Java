@@ -7,12 +7,13 @@ public class vbj_22_reverse {
         String s = sc.nextLine();
         
         while (!s.equals("close")) {
-            StringBuffer  t = new StringBuffer(s);
+            StringBuffer t = new StringBuffer(s);
             t.reverse();
             System.out.println("The reverse string is " + t);
             System.out.println("Enter the string to reverse");
             s = sc.nextLine();
         }
+        sc.close();
 
     }
 }

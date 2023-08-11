@@ -1,3 +1,5 @@
+package collegePracticals.BASIC;
+
 // package collegePracticals.BASIC;
 
 public class vbj_10_fibbo {

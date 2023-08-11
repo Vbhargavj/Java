@@ -6,12 +6,12 @@ class vbj {
 
         int a, b;
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the first number");
-        a = sc.nextInt();
-        System.out.println("enter the second number");
-        b = sc.nextInt();
-
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the first number");
+            a = sc.nextInt();
+            System.out.println("enter the second number");
+            b = sc.nextInt();
+        }
         try {
             if (b == 0) {
                 throw new ArithmeticException("Invalid,Any number is not devide by 0");
@@ -22,5 +22,6 @@ class vbj {
             System.out.println("Error:" + e.getMessage());
         }
     }
+    
 
 }
